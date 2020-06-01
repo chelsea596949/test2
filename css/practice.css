@@ -1,0 +1,107 @@
+input[type="submit"] {
+    margin:5px;
+    border-style: none;
+    background: linear-gradient(to bottom right, rgb(186, 34, 206), rgb(5, 252, 190));
+    height: 30px;
+    color: white;
+}
+a {
+    border-style: none;
+    background: linear-gradient(to bottom right, rgb(223, 97, 192), rgb(241, 111, 51));
+    color: white;
+    text-decoration: none;
+}
+body{
+    font-family: "Microsoft JhengHei";
+}
+table {
+    border-style: none;
+    border-color: white;
+    background: linear-gradient(to bottom right, rgb(186, 34, 206), rgb(5, 252, 190));
+    color: white;
+}
+td,th {
+    padding: 3px;
+}
+input[type="submit"]:hover {
+    margin:5px;
+    border-radius: 10px;
+    border-style: none;
+    background: linear-gradient(to bottom right, rgb(186, 34, 206), rgb(5, 252, 190));
+    opacity: 0.5;
+    color: black;
+}
+a:hover {
+    margin: 5px;
+    border-radius: 10px;
+    border-style: none;
+    background: linear-gradient(to bottom right, rgb(223, 97, 192), rgb(241, 111, 51));
+    opacity: 0.5;
+    height: 32px;
+    color: black;
+}
+#information {
+    overflow: scroll;
+    width: 800px;
+    height: 700px;
+}
+caption {
+    color: black;
+}
+hr {
+    width: 800px;
+    text-align: left;
+    margin-left:0;
+    background: linear-gradient(to bottom right, rgb(186, 34, 206), rgb(5, 252, 190));
+    border-style: none;
+    height: 3px;
+}
+.loginform {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 300px;
+    height: 400px;
+    margin-top: -150px;
+    margin-left: -150px;
+    background: black;
+    opacity: 0.9;
+    text-align: center;
+    color: white;
+    display: float;
+}
+#change_password, #change_name {
+    padding: 30px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 250px;
+    height: 200px;
+    margin-top: -150px;
+    margin-left: -150px;
+    background: black;
+    opacity: 0.9;
+    text-align: left;
+    color: white;
+    display: float;
+}
+#h3_change, #h3_change_name {
+    text-align: center;
+}
+.power {
+    margin-top: 5px;
+}
+#registerform {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 350px;
+    height: 500px;
+    margin-top: -200px;
+    margin-left: -150px;
+    background: black;
+    opacity: 0.9;
+    text-align: center;
+    color: white;
+    display: float;
+}
