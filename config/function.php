@@ -79,12 +79,14 @@
             $pattern = '/^[一-龥A-Za-z0-9_]+$/';
         }
         preg_match_all($pattern, $content, $match);
+        #result:正則過後的字串
         $result = '';
         foreach($match[0] as $value) {#組合字元
             $result = $result.$value;
         }
         return $result;
     }
+    #提醒使用者的視窗
     function say($string) {
         echo '<script language="javascript">';
         echo 'alert("'.$string.'");';
@@ -126,6 +128,7 @@
         }
         return $i;
     }
+    #任務狀態
     function mission_statement($mission, $length) {
         $mission = string_to_array($mission);
         $statement = array();
@@ -148,6 +151,7 @@
         }
         return $statement;
     }
+    #把字串拆開放進陣列
     function string_to_array($mission) {
         if(empty($mission)) {
             return $mission;
